@@ -35,7 +35,7 @@ public class LookAround : MonoBehaviour
         Ycounter = Mathf.Clamp(Ycounter, minAngle, maxAngle);
         Ycounter += mouseYMove;
         Xcounter += mouseXMove;
-        Debug.Log("Y=" + Ycounter + "X=" + Xcounter);
+        // Debug.Log("Y=" + Ycounter + "X=" + Xcounter);
 
         aba = new Vector3(0,1,0);
 
