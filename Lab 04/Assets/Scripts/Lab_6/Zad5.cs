@@ -42,7 +42,7 @@ public class Zad5 : MonoBehaviour
         }
         else
         {
-        other.GetComponent<Rigidbody>().AddForce(0, 10f, 0, ForceMode.Impulse);
+        other.GetComponent<Rigidbody>().AddForce(0, 10f, 0);
         }
     }
 
