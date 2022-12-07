@@ -38,7 +38,7 @@ public class CharacterController2D : MonoBehaviour
 	private void Update()
 	{
 
-        Debug.Log(m_Grounded);
+        // Debug.Log(m_Grounded);
 
 		if (!m_Grounded)
 		{
